@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keypad Pattern</title>
+    <link rel="stylesheet" href="shortflim.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <!-- <video autoplay loop muted plays-inline class="background-clips">
+        <source src="video/cyberbg.mp4" type="video/mp4" class="videopic">
+    </video>  -->
+
+    <div id="main-content">
+
+
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+
+        <div class="container">
+
+
+            <div class="pig">
+                <div class="password-container">
+                    <div class="password" id="box1"></div>
+                    <div class="password" id="box2"></div>
+                    <div class="password" id="box3"></div>
+                    <div class="password" id="box4"></div>
+                </div>
+                <div class="attempts" style="font-weight:bold;color: white;">
+                    ATTEMPTS :<span id="attempts">3 </span>
+                </div>
+
+                <div class="lock-state before" id="lock-state">
+                    <i></i>
+                </div>
+            </div>
+
+
+
+
+            <div class="bing">
+                <div class="square" style="--i:0;"></div>
+                <div class="square" style="--i:1;"></div>
+                <div class="square" style="--i:2;"></div>
+                <div class="square" style="--i:3;"></div>
+                <div class="square" style="--i:4;"></div>
+                <div class="keypad">
+                    <div class="row">
+                        <div class="key">1</div>
+                        <div class="key">2</div>
+                        <div class="key">3</div>
+                    </div>
+                    <div class="row">
+                        <div class="key">4</div>
+                        <div class="key">5</div>
+                        <div class="key">6</div>
+                    </div>
+                    <div class="row">
+                        <div class="key">7</div>
+                        <div class="key">8</div>
+                        <div class="key">9</div>
+                    </div>
+                    <div class="row">
+                        <div class="key">0</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <div id="popup" class="popup hidden">
+        <div class="popup-content">
+            <p>LOCKED</p>
+        </div>
+    </div>
+
+    <script src="shorts.js"></script>
+
+
+</body>
+
+</html>
